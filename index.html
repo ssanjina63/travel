@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>Travel World</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#places">Places</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="home">
+        <h1>Explore The World</h1>
+        <p>Enjoy Your Dream Vacation</p>
+        <button onclick="showMessage()">Explore Now</button>
+    </div>
+
+    <h1 class="heading" id="places">Popular Places</h1>
+
+    <div class="places">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400">
+            <h2>Ooty</h2>
+            <p>Beautiful Hill Station</p>
+            <button onclick="book('Ooty')">Book Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=400">
+            <h2>Manali</h2>
+            <p>Beautiful Mountains</p>
+            <button onclick="book('Manali')">Book Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=400">
+            <h2>Goa</h2>
+            <p>Beautiful Beaches</p>
+            <button onclick="book('Goa')">Book Now</button>
+        </div>
+
+    </div>
+
+    <div id="contact">
+        <p>Contact: travel@gmail.com</p>
+        <p>© 2026 Travel World</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
